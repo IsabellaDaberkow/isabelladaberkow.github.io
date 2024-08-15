@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffc2cf;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body.dark {
+  transition: all 0.5s;
+  background-color: #6e434c;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.menu {
+  width: 500px;
+  height: 30px;
+  background-color: rgba(255, 194, 207, 0.2117647059);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.poodle {
+  width: 700px;
+}
+
+.pc {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}/*# sourceMappingURL=style.css.map */
